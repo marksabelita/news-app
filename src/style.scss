@@ -1,0 +1,37 @@
+.pages {
+  padding: 6px 25px;
+}
+
+.col-4.articles{
+  margin-bottom: 30px;
+
+  .article-holder{
+    background: #dcdce1;
+    border:1px solid #c7c7cd;
+    height: 100%;
+    .description{
+      padding: 15px;
+      .date {
+        font-size: 11px;
+      }
+      .details{
+        font-size: 14px;
+      }
+    }  
+  }
+}
+
+.sources-holder{
+  border: 1px solid #c7c7cd;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  .nav-link {
+    border-bottom: 2px solid #c7c7cd;
+    cursor: pointer;
+  }
+
+  .active{
+    background: #eee;
+  }
+}
