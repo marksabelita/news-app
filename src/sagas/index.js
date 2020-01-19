@@ -2,7 +2,7 @@ import { put, takeLatest, all, call } from 'redux-saga/effects';
 import { FETCH_SOURCE, FETCH_ERROR, GET_SOURCE, FETCH_ARTICLES, GET_ARTICLES } from '../actions/type';
 import axios from 'axios';
 const hostname = window && window.location && window.location.hostname;
-const API_URL = (hostname === 'localhost') ? 'http://localhost:8080/api' : '';
+const API_URL = (hostname === 'localhost') ? 'http://localhost:8080/api' : '/api';
 
 function getRequest(request) {
   return axios.request({

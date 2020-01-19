@@ -2,7 +2,7 @@ const autoBind = require('auto-bind');
 const NewsAPI = require('newsapi');
 const responseHandler = require('../../utils/responseHandler');
 const newsConfig = require('../../config/news');
-const { API_COUNTRY, API_KEY, API_LANGUAGE, API_CATEGORY } = newsConfig;
+const { API_COUNTRY, API_KEY, API_LANGUAGE } = newsConfig;
 const newsapi = new NewsAPI(API_KEY);
 
 class NewsController{
