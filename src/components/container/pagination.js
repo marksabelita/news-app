@@ -6,8 +6,8 @@ import PropTypes from 'prop-types';
 const Pagination = (props) => {
   const { page, totalResults, onClickPagination } = props;
   if( totalResults > 0) {
-    const startArticle = (page > 1) ? page * 20 - 20 : page;
-    const lastArticle = (page > 1) ? page * 20 : 20;
+    const startArticle = (page > 1) ? page * 10 - 10 : page;
+    const lastArticle = (page > 1) ? page * 10 : 10;
     return (
       <nav aria-label="Page navigation example">
         <ul className="pagination justify-content-end">
