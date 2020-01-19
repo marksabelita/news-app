@@ -1,15 +1,10 @@
-
-![alt text](https://raw.githubusercontent.com/marksabelita/todo-list/master/src/images/logo.png)
-
-Todo list app Epress-Mean-React-Redux-Saga
+Newss app with Express-React-Redux-Saga
 
 ## Key Features
 
 This boilerplate features all the latest tools and practices in the industry.
 
 - _Express.js_ - Backend
-- _Moongose.js_ - NoSQL management
-- _MongoDB_ - NoSQL Database
 - _React.js_ - Frontend
 - _Redux.js_ - State management, Redux router, Redux saga(state management)
 - _Babel_ - ES6, and React/Recommended config
@@ -19,12 +14,12 @@ This boilerplate features all the latest tools and practices in the industry.
 - _Styles_ - SCSS Styling
 
 ## Heroku deployment
-> https://mstodolist.herokuapp.com
+> http://news-app-m.herokuapp.com/
 
 ## Quick start
 
-- Clone this repo using git clone https://github.com/marksabelita/todo-list.git
-- Move to the appropriate directory: cd todo-list.
+- Clone this repo using git clone https://github.com/marksabelita/news-app.git
+- Move to the appropriate directory: cd news-app.
 - Install dependencies
 ```
 npm install
